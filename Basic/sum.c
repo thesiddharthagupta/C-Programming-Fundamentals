@@ -9,5 +9,6 @@ int main()
     scanf("%d",&b);
 
     int sum = a + b;
-    printf("The sum two number is: %d", sum);
+    printf("The sum two number is: %d", sum);   
+    //we can also use printf("diff is: %d", a - b);
 }
