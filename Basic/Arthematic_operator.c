@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
     int a,b;
     printf("Enter value of a: ");
@@ -10,6 +11,7 @@ int main(){
     printf("The Add of number is: %d\n", a + b);
     printf("The difference of number is: %d\n", a - b);
     printf("The Multiple of number is: %d\n", a * b);
+    printf("The power of number is: %d\n", (int)pow(a,b));      // typecasting by int to power
 
     if(b != 0){
     printf("The Divide of number is: %.2f\n", (float)a / b);
