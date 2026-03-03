@@ -7,9 +7,9 @@ int main(){
     // Using ASCII value
     if (ch >= '0' && ch <= '9'){
         printf("It is a digit.");
-    } else{
+    } else {
         printf("It is Not a Digit.");
-        printf("It is Not Single Digit number or May be charactor")
+        printf("It is Not Single Digit number or May be charactor");
     }
     return 0;
 }
