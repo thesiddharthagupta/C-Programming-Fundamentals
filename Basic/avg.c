@@ -4,7 +4,7 @@ int main(){
     printf("Enter 3 numbers: ");
     scanf("%f %f %f",&a,&b,&c);
 
-    average = (a+b+c)/3;
+    average = (a+b+c)/3;  // sum of number by total number
     printf("The average of 3 numbers are: %.2f",average);
     return 0;
 }
