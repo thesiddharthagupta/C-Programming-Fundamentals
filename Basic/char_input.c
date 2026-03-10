@@ -14,3 +14,8 @@ int main(){
 
     return 0;
 }
+
+/*
+scanf("%c", &a);  // user enters 'x' + Enter
+scanf("%c", &b);  // reads '\n' (newline), not the next character
+*/
