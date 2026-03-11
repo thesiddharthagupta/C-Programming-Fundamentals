@@ -6,7 +6,7 @@ int main(){
 
     if (marks < 30){
         printf("grade is 'C'\n");
-    } else if (30 <= marks && marks < 70)
+    } else if (30 <= marks && marks < 70)   // && for true and true -> true else False!
     {
         printf("Grade is 'B'\n");
     } else if (70 <= marks && marks < 90)
