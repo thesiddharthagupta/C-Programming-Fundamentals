@@ -6,7 +6,7 @@ int main(){
 
     if (marks > 100 || marks < 0){
         printf("Invalid Marks!");
-    } else if (marks >= 30)
+    } else if (marks >= 30)     // marks is greater then 30
     {
         printf("PASS!");
     }
