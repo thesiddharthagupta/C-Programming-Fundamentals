@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&num);
 
     // repeat until number becomes single digit
-    while(num >= 10){
+    while(num >= 10){   // num is greater then 10
         sum = 0;
 
         // add digits of number
