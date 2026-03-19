@@ -10,7 +10,7 @@ int main(){
 
     switch(operator){
     case '+':
-            result = num1 + num2;
+            result = num1 + num2;       // value are stored in result at single single operation.
             printf("Sum = : %.2f\n", result);
             break;
      case '-':
