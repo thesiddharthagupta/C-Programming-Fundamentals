@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-    int num, temp, reverse = 0, digit;
+    int num, temp, digit;
     printf("Enter a number to check the value is Palindrome or not? ");
     scanf("%d",&num);
 
+    int reverse = 0;
     temp = num;
 
+    // logic
     while(num > 0){
         digit = num % 10;
         reverse = reverse * 10 + digit;
