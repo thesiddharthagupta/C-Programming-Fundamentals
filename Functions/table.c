@@ -12,6 +12,6 @@ int main(){
     printf("Enter a number: ");
     scanf("%d",&n);
 
-    printTable(n);      // fun arguments eg. printtable(5);
+    printTable(n);      // func arguments eg. printtable(5);
     return 0;
 }
