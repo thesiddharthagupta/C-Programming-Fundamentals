@@ -7,21 +7,21 @@ int check_Divisible(int a, int b){
 int main(){
     int num, div;
 
-    printf("Enter a number for Divide: ");
+    printf("Enter the number to be checked: ");
     scanf("%d", &num);
 
-    printf("Enter a number to get divide: ");
+    printf("Enter the divisor: ");
     scanf("%d", &div);
 
     if (div == 0) {
-        printf("Cannot divide by zero!");
+        printf("Error: Division by zero is not allowed.\n");
         return 0;
     }
 
     if (check_Divisible(num, div)) {
-        printf("Divisible by given number");
+        printf("%d is divisible by %d.\n", num, div);
     } else {
-        printf("Not divisible by given number");
+        printf("%d is not divisible by %d.\n", num, div);
     }
 
     return 0;
