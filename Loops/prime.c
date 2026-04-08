@@ -6,7 +6,7 @@ int main()
     printf("Enter Number: ");
     scanf("%d",&num);
 
-    for(int i = 1; i<=10; i++){
+    for(int i = 1; i<=num; i++){
         if (num % i == 0){
             count++;
         }
@@ -15,7 +15,7 @@ int main()
     if(count == 2){
         printf("Prime Number!");
     } else {
-        printf("Composite or not Prime Number!",num);
+        printf("Composite or not Prime Number!");
     }
     return 0;
 }
