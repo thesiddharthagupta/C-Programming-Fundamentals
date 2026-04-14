@@ -3,7 +3,7 @@ int main(){
     int n;
     printf("ENter number: ");
     scanf("%d",&n);
-
+    // for loop syntax
     for(int i=1; i<=n; i++){
         printf("%d\n",i);
     }
