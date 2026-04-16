@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int sum=0,n;
+    int sum=0,n;    // sum = 0 used as container to store
     printf("ENter a numbers: ");
     scanf("%d",&n);
 
