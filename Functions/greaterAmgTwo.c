@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// func defn
 int greater(int a, int b){
     if (a > b){
         return a;
