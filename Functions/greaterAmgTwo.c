@@ -13,7 +13,7 @@ int main(){
     printf("Enter Two Numbers: ");
     scanf("%d%d",&num,&num2);
 
-    int result = greater(num,num2);
+    int result = greater(num,num2); // with call and arguments
     printf("%d is the greater number.\n", result);
     return 0;
 }
