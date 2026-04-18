@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int rev = 0, num, original, remainder;
+    int num, rev = 0, rem, temp;
 
-    printf("Enter a number: ");
+    printf("Enter number: ");
     scanf("%d", &num);
 
-    original = num;  // store original number
+    temp = num;  // save original
 
-    while (num > 0) {
-        remainder = num % 10;
-        rev = rev * 10 + remainder;
-        num = num / 10;
+    while (num != 0) {
+        rem = num % 10;          
+        rev = rev * 10 + rem;    
+        num = num / 10;          
     }
 
-    if (rev == original) {
+    if (temp == rev)
         printf("Palindrome");
-    } else {
-        printf("Not palindrome");
-    }
+    else
+        printf("Not Palindrome");
 
     return 0;
 }
