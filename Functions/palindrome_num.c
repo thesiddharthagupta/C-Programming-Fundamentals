@@ -9,9 +9,9 @@ int main() {
     temp = num;  // save original
 
     while (num != 0) {
-        rem = num % 10;          
-        rev = rev * 10 + rem;    
-        num = num / 10;          
+        rem = num % 10;          // take last digit
+        rev = rev * 10 + rem;    // build reverse
+        num = num / 10;          // remove last digit
     }
 
     if (temp == rev)
