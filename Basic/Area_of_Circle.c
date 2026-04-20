@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    float pie = 3.14;
+    float const pie = 3.14;
     float radius, area, circumference;
 
     printf("Enter the radius: ");
