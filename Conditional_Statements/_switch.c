@@ -9,6 +9,6 @@ int main(){
         default : printf("C-programming\n");    // printed bcoz cases didn't matched 
 
     }
-    printf("outside Switch\n");         // outside of cases in body. so its print
+    printf("outside Switch\n");         // outside of cases in body. so its print...
     return 0;
 }
