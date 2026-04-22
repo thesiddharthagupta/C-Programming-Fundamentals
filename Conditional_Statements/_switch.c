@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char a = 'A', b = 'B';  // A is 65 & B is 66
+    char a = 'A', b = 'B';      //askii-> // A is 65 & B is 66
     switch(a+b){
         case 10: printf("Hi \n");
         break;
