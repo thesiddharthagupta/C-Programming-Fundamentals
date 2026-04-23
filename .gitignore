@@ -1,1 +1,2 @@
 *.exe
+echo "a.out" >> .gitignore
