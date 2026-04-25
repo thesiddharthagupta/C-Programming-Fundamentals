@@ -2,7 +2,7 @@
 void main(){
     int a = 100;
     if (a > 30)
-        printf("Demon");
+        printf("Demon");    // cond is true so its printed and not checked another.
     else if (a > 20)
         printf("Alish");
     else if (a > 10)
