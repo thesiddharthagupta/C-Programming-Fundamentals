@@ -2,10 +2,10 @@
 #include<stdio.h>
 // declaration/prototype
 void namaste(){
-    printf("Nameste!\n");
+    printf("Nameste!\n");   //func defined
 }
 void bonjour(){
-    printf("Bonjour!");
+    printf("Bonjour!");     // func defined
 }
 
 
@@ -19,7 +19,7 @@ int main(){
         bonjour();
 
     } else if ((ch == 'n') || (ch == 'N')) {
-        namaste();
+        namaste();  //func call
     }
     else{
         printf("Please choose the language ('f' or 'n')");
