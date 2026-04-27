@@ -6,7 +6,7 @@ int fibo(int n){
     else if (n==1)  // cond 2
     return 1;
     else {
-        return fibo(n-1)+fibo(n-2);
+        return fibo(n-1) + fibo(n-2);
     }
 }
 int main(){
