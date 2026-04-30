@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int check_num(int n){
-    return (n%2 == 0);
+    return (n%2 == 0);  //func defn cond-n
 }
 
 int main(){
