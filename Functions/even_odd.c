@@ -10,6 +10,6 @@ int main(){
     printf("Enter number to check: ");
     scanf("%d",&n);
 
-    check_even(n);
+    check_even(n);  //func call
 
 }
