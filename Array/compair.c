@@ -9,6 +9,6 @@ int main(){
     
     _ptr = &age;
     printf("Comparision = %u\n", ptr == _ptr);
-    // output 1 because its true
+    // output 1 because its true (datatype)
     return 0;
 }
