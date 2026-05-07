@@ -2,7 +2,7 @@
 
 int main() {
     int card[5];
-    int *ptr = &card[0];
+    int *ptr = &card[0];    //*pre locates &card at index 0  memory location
 
     // Input values
     for (int i = 0; i < 5; i++) {
