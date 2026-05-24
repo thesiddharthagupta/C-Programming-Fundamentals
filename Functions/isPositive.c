@@ -16,6 +16,7 @@ int main(){
     scanf("%d",&num);
     
     // we can store IsPositive = result and use result instend of calling same function twise.
+    
     if (IsPositive(num) == 1){
         printf("Positive!");
     } else if (IsPositive(num) == -1){
