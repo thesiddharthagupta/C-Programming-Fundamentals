@@ -9,8 +9,8 @@ void printHello();
 
 int main(){
     //function call
-    printHello();  
-    printHello();  // functioncall2
+    printHello();  // function call 1
+    printHello();  // function call2
     return 0;
 }
 
