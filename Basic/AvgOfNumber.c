@@ -4,7 +4,7 @@ int main(){
     float avg;
 
     printf("Enter 3 numbers: ");
-    scanf("%d%d%d",&a,&b,&c);
+    scanf("%d%d%d",&a,&b,&c);       // input at once
 
     avg = (a + b + c) / 3.0;   // 3.0 for correct float division
 
