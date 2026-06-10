@@ -2,7 +2,8 @@
 
 int main(){
     int num;
-    int count = 0;
+    int count = 0;  
+    // value insalize 
 
     printf("Enter number: ");
     scanf("%d",&num);
@@ -11,7 +12,7 @@ int main(){
         num = num / 10;
         count++;
     }
-    while (num != 0);
+    while (num != 0);  //not equal to zero
 
     printf("Total digits = %d\n", count);
 
