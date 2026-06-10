@@ -18,3 +18,7 @@ int main(){
 
     return 0;
 }
+
+// removes the last digit by dividing by 10
+// increases the digit count
+// repeats until the number becomes 0.
