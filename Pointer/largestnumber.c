@@ -6,3 +6,12 @@ void findElements(int arr[], int n, int *largest, int secoundlarges, int smalles
         if arr[i] < smallest
     }
 }
+
+
+
+
+
+
+
+
+hello 
