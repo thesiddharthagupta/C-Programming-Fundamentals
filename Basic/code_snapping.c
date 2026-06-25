@@ -11,7 +11,9 @@ void m()
 
 int main()
 {
-    m();
-    printf("%d", a);
+    m();    // prints 6
+    printf("%d", a);        // prints 10
     return 0;
 }
+
+// output - > 610
