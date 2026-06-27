@@ -4,6 +4,7 @@ void m()
 {
     int a = 5;  // Local variable
     a++;        // Increment local variable
+    
     printf("%d", a);
 }
 int main()
