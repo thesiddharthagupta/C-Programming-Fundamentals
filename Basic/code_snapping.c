@@ -1,10 +1,8 @@
 #include<stdio.h>
 int a = 10;     // Global variable
-void m()
-{
+void m(){
     int a = 5;  // Local variable
-    a++;        // Increment local variable
-    
+    a++;        // Increment Local Variable
     printf("%d", a);
 }
 int main()
