@@ -7,5 +7,6 @@ int main(){
     printf("%d\n",arr[2]);
     printf("%d\n",arr[3]);
     printf("%d\n",arr[4]);
+    printf("%d\n",arr[5]);  //doesn't exits so garvage value will be output for this index.
         
     }
