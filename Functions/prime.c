@@ -9,7 +9,7 @@ int isprime(int num){
         }
     }
 
-    if (count == 2)
+    if (count == 2)     // condition 
         return 1;
     else
         return 0;
@@ -17,7 +17,6 @@ int isprime(int num){
 
 int main(){
     int num;
-
     printf("Enter a number: ");
     scanf("%d", &num);
 
