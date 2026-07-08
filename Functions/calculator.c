@@ -1,21 +1,16 @@
 #include<stdio.h>
-
 int sum(int a, int b){
     return a + b;
 }
-
 int diff(int a, int b){
     return a - b; 
 }
-
 int multi(int a, int b){
     return a * b;
 }
-
 int divide(int a, int b){
     return a / b;
 }
-
 int main(){
     int a,b, choice = -1;
 
@@ -27,7 +22,7 @@ int main(){
         printf("Enter a operation (1-4) and 0 for quit: ");
         scanf("%d",&choice);
 
-        if(choice >=1 && choice <= 4){
+        if(choice >=1 && choice <= 4){      // choice must be in betn 1-4
         printf("Enter value of a and b: ");
         scanf("%d%d",&a,&b);
     }
@@ -45,7 +40,7 @@ int main(){
     }
 
     else if (choice == 4){
-        if(b == 0){
+        if(b == 0){     // b should not be zero
             printf("Cannot divide by zero!\n");
         } else {
         printf("Divide of %d and %d is %d\n",a,b, divide(a,b));
