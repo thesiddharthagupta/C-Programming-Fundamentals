@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 // declaration/prototype
-void namaste(){
+void namaste(){     // func decleration
     printf("Nameste!\n");   //func defined
 }
 void bonjour(){
@@ -16,7 +16,7 @@ int main(){
     scanf("%c",&ch);
 
     if ((ch =='f') || (ch == 'F')){
-        bonjour();      // function call
+        bonjour();      // function call.
 
     } else if ((ch == 'n') || (ch == 'N')) {
         namaste();  //func call
