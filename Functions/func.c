@@ -10,12 +10,12 @@ void printHello();
 int main(){
     //function call
     printHello();  // function call 1
-    printHello();  // function call2
+    printHello();  // function call 2
     return 0;
 }
 
 // function defination
-void printHello(){
+void printHello(){      // function definations
     printf("Hello There!\n");
 }
 
