@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int i = 1;
-    //loop
+    // Do-While Loop
     do {
         printf("%d\n",i);
         i++; 
