@@ -3,7 +3,7 @@
 
 struct student{
     char name[100];
-    int roll;
+    int roll;       // decleration 
     float Cgpa;
 };
 
