@@ -3,6 +3,6 @@ int main(){
     int a,b;        //decleration 
     printf("Enter any number: ");
     scanf("%d%d",&a, &b);       // input
-    printf("a=%d\n b=%d", a,b);
+    printf("a=%d\n b=%d", a,b);     // output
     return 0;
 }
