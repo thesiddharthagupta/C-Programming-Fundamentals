@@ -4,7 +4,7 @@
 {
     int a,b;
     printf("Enter the number for power: ");
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&a,&b); // 2 inputs
 
     printf("The power of given number is: %d", (int)pow(a,b));  //typecasting to integer by int
     return 0;
