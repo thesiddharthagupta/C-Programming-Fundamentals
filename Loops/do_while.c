@@ -5,7 +5,9 @@ int main(){
     do {
         printf("%d\n",i);
         i++; 
-    } while (i<=5);     //first complete task then check conditions
+    } while (i<=5);     
+    
+    //first complete task then check conditions
 
     return 0;
     
