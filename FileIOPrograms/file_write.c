@@ -5,8 +5,8 @@ int main(){
     char name[100];
     int age;
     float cgpa;
-    printf("Enter name: ");
-    scanf("%s",&name);
+    printf("Enter name: ");     // get
+    scanf("%s",&name);          // put
     printf("Enter age: ");
     scanf("%d",&age);
     printf("Enter Cgpa: ");
